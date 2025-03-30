@@ -18,7 +18,7 @@ def main():
         list.append(data["data"][i]["title"])
         i += 1
 
-    sep = " ".join(list)
+    #sep = " ".join(list)
 
-    return render_template("index.html", content=sep)
+    return render_template("index.html", content=list)
 
